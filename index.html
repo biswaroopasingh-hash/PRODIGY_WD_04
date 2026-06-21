@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biswaroopa Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Share+Tech+Mono&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- Aurora animated blobs -->
+  <div class="aurora-bg">
+    <div class="aurora a1"></div>
+    <div class="aurora a2"></div>
+    <div class="aurora a3"></div>
+    <div class="aurora a4"></div>
+    <div class="aurora a5"></div>
+  </div>
+
+  <!-- Starfield canvas -->
+  <canvas id="star-canvas"></canvas>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">Biswaroopa<span class="logo-sep">·</span>Singh</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-avail">
+        <span class="avail-dot"></span>Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        <span class="ht-line ht1">BISWAROOPA</span>
+        <span class="ht-line ht2">SINGH</span>
+      </h1>
+      <div class="hero-roles">
+        <span id="typewriter"></span><span class="tcursor">|</span>
+      </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-aurora">
+          <span class="btn-aurora-bg"></span>
+          <span>View Projects</span>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-orb-wrap">
+      <div class="orb-ring r1">
+        <div class="orb-planet p1"><span>AWS</span></div>
+        <div class="orb-planet p2"><span>Kali</span></div>
+      </div>
+      <div class="orb-ring r2">
+        <div class="orb-planet p3"><span>Python</span></div>
+        <div class="orb-planet p4"><span>CI/CD</span></div>
+        <div class="orb-planet p5"><span>VPC</span></div>
+      </div>
+      <div class="orb-ring r3">
+        <div class="orb-planet p6"><span>HTML</span></div>
+        <div class="orb-planet p7"><span>Lambda</span></div>
+        <div class="orb-planet p8"><span>CSS</span></div>
+        <div class="orb-planet p9"><span>JS</span></div>
+      </div>
+      <div class="orb-center">
+        <div class="orb-core-ring"></div>
+        <div class="orb-core">BS</div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ══════════ ABOUT ══════════ -->
+  <section id="about" class="about section">
+    <div class="section-eyebrow rv">// 01 &nbsp; ABOUT ME</div>
+    <div class="about-grid">
+      <div class="about-text rv-left">
+        <h2 class="section-title">Who I Am</h2>
+        <p>I'm an <strong>MCA student</strong> specialising in <strong>Cyber Security & Cyber Defense</strong> at Sri Sri University, Cuttack. I am passionate about technology, cybersecurity, and cloud computing, and I enjoy applying my academic knowledge to real-world projects.</p>
+        <p>My interests include <strong>ethical hacking, cloud technologies, and network security.</strong>I have experience working with AWS cloud services, secure application deployment, and identifying security vulnerabilities. I am also currently learning <strong> Web Development </strong> to expand my skills in building modern, secure, and user-friendly applications.
+I aim to create solutions that are not only functional and efficient but also secure and reliable. I am always eager to learn new technologies and improve my technical expertise through hands-on projects and continuous learning.</p>
+        <div class="about-stats">
+          <div class="astat">
+            <span class="astat-n" data-target="3">0</span><span class="astat-sym">+</span>
+            <span class="astat-l">AWS Projects</span>
+          </div>
+          <div class="astat">
+            <span class="astat-n" data-target="2">0</span><span class="astat-sym">+</span>
+            <span class="astat-l">Certifications</span>
+          </div>
+          <div class="astat">
+            <span class="astat-n" style="font-size:1.4rem">MCA</span>
+            <span class="astat-l">Sri Sri University</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="term-wrap rv-right">
+        <div class="terminal">
+          <div class="term-bar">
+            <span class="tdot tr"></span><span class="tdot ty"></span><span class="tdot tg"></span>
+            <span class="term-title">biswaroopa@portfolio ~ $</span>
+          </div>
+          <div class="term-body">
+            <div class="tl"><span class="tp">❯</span> <span class="tc">whoami</span></div>
+            <div class="to">Biswaroopa Singh</div>
+            <div class="tl mt"><span class="tp">❯</span> <span class="tc">cat</span> profile.json</div>
+            <div class="to">{ role: "Cyber Security & Cyber Defense" }</div>
+            <div class="to">{ univ: "Sri Sri University, Cuttack" }</div>
+            <div class="to">{ degree: "MCA — Cyber Security" }</div>
+            <div class="to">{ email: "biswaroopasingh@gmail.com" }</div>
+            <div class="to tgreen">{ status: "● Available ✓" }</div>
+            <div class="tl mt"><span class="tp">❯</span> <span class="tc">ls</span> skills/</div>
+            <div class="to tgold">aws/  python/  kali/  web development/  security/  networking/</div>
+            <div class="tl mt"><span class="tp">❯</span> <span class="tblink">█</span></div>
+          </div>
+        </div>
+        <div class="term-glow-blob"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SKILLS ══════════ -->
+  <section id="skills" class="skills section">
+    <div class="section-eyebrow rv">// 02 &nbsp; SKILLS</div>
+    <h2 class="section-title rv">Technical Arsenal</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card rv-up" style="--d:0s">
+        <div class="skill-card-glow"></div>
+        <div class="skill-hd">
+          <div class="sk-icon cloud">☁</div>
+          <h3>Cloud Computing</h3>
+        </div>
+        <div class="stags">
+          <span>AWS Amplify</span><span>EC2</span><span>S3</span><span>IAM</span>
+          <span>Lambda</span><span>API Gateway</span><span>DynamoDB</span>
+          <span>Cognito</span><span>CloudWatch</span><span>SNS</span>
+          <span>VPC</span><span>GuardDuty</span>
+        </div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-w="85"></div></div>
+      </div>
+
+      <div class="skill-card rv-up" style="--d:0.12s">
+        <div class="skill-card-glow"></div>
+        <div class="skill-hd">
+          <div class="sk-icon sec">🔐</div>
+          <h3>Cybersecurity</h3>
+        </div>
+        <div class="stags">
+          <span>Kali Linux</span><span>Pen Testing</span><span>Nmap</span>
+          <span>Metasploit</span><span>Wireshark</span><span>pfSense</span>
+          <span>OSINT</span><span>Maltego</span><span>Recon-ng</span>
+        </div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-w="80"></div></div>
+      </div>
+
+      <div class="skill-card rv-up" style="--d:0.24s">
+        <div class="skill-card-glow"></div>
+        <div class="skill-hd">
+          <div class="sk-icon dev">💻</div>
+          <h3>Development</h3>
+        </div>
+        <div class="stags">
+          <span>Python</span><span>HTML</span><span>CSS</span>
+          <span>JavaScript</span><span>C</span><span>C++</span>
+          <span>SQL</span><span>GitHub</span><span>CI/CD</span><span>VS Code</span>
+        </div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-w="78"></div></div>
+      </div>
+
+      <div class="skill-card rv-up" style="--d:0.36s">
+        <div class="skill-card-glow"></div>
+        <div class="skill-hd">
+          <div class="sk-icon net">🖧</div>
+          <h3>Networking & OS</h3>
+        </div>
+        <div class="stags">
+          <span>Ubuntu</span><span>Windows</span><span>Firewall</span>
+          <span>VPC Networking</span><span>DNS</span><span>FTP</span>
+        </div>
+        <div class="sk-bar-wrap"><div class="sk-bar" data-w="72"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════ PROJECTS ══════════ -->
+  <section id="projects" class="projects section">
+    <div class="section-eyebrow rv">// 03 &nbsp; PROJECTS</div>
+    <h2 class="section-title rv">Featured Projects</h2>
+    <div class="proj-grid">
+
+      <div class="proj-card featured rv-up" style="--d:0s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-ribbon">⭐ MAJOR PROJECT · MCA</div>
+        <div class="proj-num">01</div>
+        <h3>Secure Static Web App · Serverless Auth & CI/CD on AWS</h3>
+        <p>Designed and deployed a secure two-page application (Login + Protected Dashboard) using a fully serverless AWS architecture integrated with GitHub CI/CD via AWS Amplify for automatic deployment on every push.</p>
+        <p>JWT-based authentication via Amazon Cognito, AWS Lambda + API Gateway backend, DynamoDB data store, CloudWatch monitoring, and SNS real-time alert notifications.</p>
+        <div class="ptags">
+          <span>AWS Amplify</span><span>Cognito/JWT</span><span>Lambda</span>
+          <span>API Gateway</span><span>DynamoDB</span><span>CloudWatch</span>
+          <span>SNS</span><span>GitHub CI/CD</span><span>HTML/CSS/JS</span>
+        </div>
+        <a href="#" class="proj-link">Explore →</a>
+      </div>
+
+      <div class="proj-card rv-up" style="--d:0.1s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-num">02</div>
+        <h3>Website Deployment via AWS Amplify</h3>
+        <p>Deployed and hosted a static website on AWS Amplify with cloud hosting and automated deployment pipeline.</p>
+        <div class="ptags"><span>AWS Amplify</span><span>HTML</span><span>CSS</span><span>JS</span></div>
+        <a href="#" class="proj-link">Explore →</a>
+      </div>
+
+      <div class="proj-card rv-up" style="--d:0.2s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-num">03</div>
+        <h3>AWS Cloud Labs · EC2, S3, IAM & GuardDuty</h3>
+        <p>Deployed and managed cloud resources using EC2 and S3, configured IAM roles, set up VPC networking, and implemented threat monitoring with GuardDuty.</p>
+        <div class="ptags"><span>EC2</span><span>S3</span><span>IAM</span><span>VPC</span><span>GuardDuty</span></div>
+        <a href="#" class="proj-link">Explore →</a>
+      </div>
+       
+      
+      <div class="proj-card rv-up" style="--d:0.3s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-ribbon task">TASK-01 · PRODIGY INFOTECH</div>
+        <div class="proj-num">04</div>
+        <h3>Responsive Landing Page</h3>
+        <p>Developed a responsive landing page using HTML, CSS, and JavaScript with an interactive navigation menu, smooth scrolling effects, and mobile-friendly design to ensure an optimal user experience across devices.</p>
+        <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Animations</span></div>
+        <a href="#" class="proj-link">Live →</a>
+      </div>
+
+      <div class="proj-card rv-up" style="--d:0.3s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-ribbon task">TASK-02 · PRODIGY INFOTECH</div>
+        <div class="proj-num">04</div>
+        <h3>Stopwatch Web Application</h3>
+        <p>Developed a responsive stopwatch application using HTML, CSS, and JavaScript with start, pause, reset, and lap-time tracking functionalities. Focused on accuracy, usability, and interactive user experience.</p>
+        <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Animations</span></div>
+        <a href="#" class="proj-link">Live →</a>
+      </div>
+
+
+      <div class="proj-card rv-up" style="--d:0.3s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-ribbon task">TASK-03 · PRODIGY INFOTECH</div>
+        <div class="proj-num">04</div>
+        <h3>Tic-Tac-Toe Web Application</h3>
+        <p>Built an interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript. Implemented game logic, win-condition detection, turn management, and a responsive user interface..</p>
+        <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Animations</span></div>
+        <a href="#" class="proj-link">Live →</a>
+      </div>
+
+      <div class="proj-card rv-up" style="--d:0.3s">
+        <div class="proj-card-glow"></div>
+        <div class="proj-ribbon task">TASK-04 · PRODIGY INFOTECH</div>
+        <div class="proj-num">04</div>
+        <h3>Personal Portfolio Website</h3>
+        <p>Immersive personal portfolio with Aurora Dark theme, cinematic animations, and fully responsive design showcasing all skills and achievements.</p>
+        <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Animations</span></div>
+        <a href="#" class="proj-link">Live →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════ CERTIFICATIONS ══════════ -->
+  <section id="certifications" class="certifications section">
+    <div class="section-eyebrow rv">// 04 &nbsp; CERTIFICATIONS</div>
+    <h2 class="section-title rv">Credentials & Training</h2>
+    <div class="certs-grid">
+
+      <div class="cert-card rv-up" style="--d:0s">
+        <div class="cert-card-glow glow-blue"></div>
+        <div class="cert-badge-issuer infosys">Infosys Springboard</div>
+        <h3>Kali Linux Penetration Testing</h3>
+        <p class="cdate">📅 May 9, 2026</p>
+        <p class="cdesc">Comprehensive penetration testing covering Kali Linux tools, vulnerability assessment, and ethical hacking methodology.</p>
+        <div class="cverified verified">✔ Verified · Satheesha B. Nanjappa, SVP Infosys</div>
+      </div>
+
+      <div class="cert-card rv-up" style="--d:0.1s">
+        <div class="cert-card-glow glow-teal"></div>
+        <div class="cert-badge-issuer tcs">TCS iON</div>
+        <h3>Career Edge — Young Professional</h3>
+        <p class="cdate">📅 2025</p>
+        <p class="cdesc">Professional development certification covering workplace readiness, communication, and career skills for IT professionals.</p>
+        <div class="cverified verified">✔ Verified</div>
+      </div>
+
+      <div class="cert-card rv-up" style="--d:0.2s">
+        <div class="cert-card-glow glow-gold"></div>
+        <div class="cert-badge-issuer qsp">QSpiders</div>
+        <h3>Software Development Training</h3>
+        <p class="cdate">📅 Completed 2024</p>
+        <p class="cdesc">Intensive training in Python, HTML, CSS, JavaScript, and SQL covering full-stack fundamentals and practical development.</p>
+        <div class="cverified completed">✔ Completed</div>
+      </div>
+
+      <div class="cert-card rv-up" style="--d:0.3s">
+        <div class="cert-card-glow glow-purple"></div>
+        <div class="cert-badge-issuer cdojo">Cyber Dojo</div>
+        <h3>Cybersecurity Trainee Program</h3>
+        <p class="cdate">📅 2025 – Present</p>
+        <p class="cdesc">Hands-on AWS labs (EC2, S3, IAM, VPC, GuardDuty, Amplify), pfSense firewall configuration, and practical cloud security.</p>
+        <div class="cverified active">⚡ Active Trainee</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT ══════════ -->
+  <section id="contact" class="contact section">
+    <div class="section-eyebrow rv">// 05 &nbsp; CONTACT</div>
+    <h2 class="section-title rv">Get In Touch</h2>
+    <p class="contact-intro rv">Open to internships, entry-level roles, and collaboration on cybersecurity or cloud projects.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info rv-left">
+        <div class="ci"><div class="ci-icon">✉</div><div><span class="ci-l">Email</span><a href="mailto:biswaroopasingh@gmail.com">biswaroopasingh@gmail.com</a></div></div>
+        <div class="ci"><div class="ci-icon">📱</div><div><span class="ci-l">Phone</span><a href="tel:8249267845">+91 8249267845</a></div></div>
+        <div class="ci"><div class="ci-icon" style="font-size:0.7rem;font-family:var(--fh)">in</div><div><span class="ci-l">LinkedIn</span><a href="https://linkedin.com/in/biswaroopa-singh" target="_blank">biswaroopa-singh</a></div></div>
+        <div class="ci"><div class="ci-icon">🎓</div><div><span class="ci-l">University</span><span>Sri Sri University, Cuttack</span></div></div>
+      </div>
+
+      <div class="contact-form-wrap rv-right">
+        <div class="cform">
+          <div class="fg">
+            <input type="text" id="fn" class="fi" placeholder=" "/>
+            <label for="fn">Your Name</label>
+          </div>
+          <div class="fg">
+            <input type="email" id="fe" class="fi" placeholder=" "/>
+            <label for="fe">Your Email</label>
+          </div>
+          <div class="fg">
+            <textarea id="fm" class="fi" rows="5" placeholder=" "></textarea>
+            <label for="fm">Your Message</label>
+          </div>
+          <button class="btn btn-aurora send-btn" onclick="sendMsg(this)">
+            <span class="btn-aurora-bg"></span>
+            <span class="btn-text">Send Message</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="fn">BISWAROOPA SINGH</p>
+    <p class="fs">MCA · Cyber Security & Cyber Defense · Sri Sri University</p>
+    <p class="fm">Built with HTML · CSS · JS · Aurora Dark</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
